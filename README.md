@@ -1,13 +1,15 @@
 # CSS TRICKS AND MAGIG
-Here you got all of CSS tricks what I was fingure out on my projects.
+Here you got all of CSS tricks what I was figuring out on my projects.
 
 #### Control Placeholder color
-	class/id/null input::-webkit-input-placeholder, class/id/null textarea::-webkit-input-placeholder {
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	  color: #fff;
 	  opacity: 1;
 	}
-	
-	class/id/null input:-moz-placeholder, class/id/null textarea:-moz-placeholder {
+
+	input:-moz-placeholder, textarea:-moz-placeholder {
 	  color: #fff;
 	  opacity: 1;
 	}
+
+	*** Please add your class or id name before selector to work with specific Form.
