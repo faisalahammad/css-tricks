@@ -12,11 +12,9 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 	  opacity: 1;
 	}
 
-	*** Please add your class or id name before selector to work with specific Form.
+	N.B: Please add your class or id name before selector to work with specific Form.
 
 #### Add Custom Social Icons on WordPress Navigation Menu
-	* Add class on NAV Menu
-	
 	.class {
 		text-indent: -9999px;
 		background-image: url(http://link.com);
@@ -28,3 +26,17 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 	.class:hover {
 		background-color: transparent !important;
 	}
+
+	N.B: Add class on NAV Menu
+
+#### Add Caret Icon beside Dropdown menu (Parent li)
+	.menu li a:after {
+		color: #fff !important;
+		content: ' ' !important;
+	}
+
+	.menu li > a:only-child:after {
+		content: '' !important;
+	}
+
+	N.B: Replace your class inside of .menu 
