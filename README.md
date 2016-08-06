@@ -32,7 +32,7 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 #### Add Caret Icon beside Dropdown menu (Parent li)
 	.menu li a:after {
 		color: #fff !important;
-		content: ' ' !important;
+		content: ' ▼' !important;
 	}
 
 	.menu li > a:only-child:after {
