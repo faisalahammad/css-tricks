@@ -1,7 +1,7 @@
 # CSS TRICKS AND MAGIG
 Here you got all of CSS tricks what I was figuring out on my projects.
 
-#### Control Placeholder color
+### Control Placeholder color
 	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	  color: #fff;
 	  opacity: 1;
@@ -14,7 +14,7 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 
 	N.B: Please add your class or id name before selector to work with specific Form.
 
-#### Add Custom Social Icons on WordPress Navigation Menu
+### Add Custom Social Icons on WordPress Navigation Menu
 	.class {
 		text-indent: -9999px;
 		background-image: url(http://link.com);
@@ -29,7 +29,7 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 
 	N.B: Add class on NAV Menu
 
-#### Add Caret Icon beside Dropdown menu (Parent li)
+### Add Caret Icon beside Dropdown menu (Parent li)
 	.menu li a:after {
 		color: #fff !important;
 		content: ' ▼' !important;
@@ -40,3 +40,23 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 	}
 
 	N.B: Replace your class inside of .menu 
+
+### Make Responsive iframe
+	.iframe-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 35px;
+		height: 0;
+		overflow: hidden;
+	}
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	or
+
+	*Use this site to make responsive: [Responsive iFrame Generator](http://embedresponsively.com)*
