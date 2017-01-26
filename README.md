@@ -41,7 +41,7 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 
 	N.B: Replace your class inside of .menu 
 
-### Make Responsive iframe
+### Make Responsive iframe (CSS Code)
 	.iframe-container {
 		position: relative;
 		padding-bottom: 56.25%;
@@ -57,6 +57,6 @@ Here you got all of CSS tricks what I was figuring out on my projects.
 		height: 100%;
 	}
 
-	or
+### Make Responsive iframe (via Website)
 
-	*Use this site to make responsive: [Responsive iFrame Generator](http://embedresponsively.com)*
+* Use this site to make responsive -> [Responsive iFrame Generator](http://embedresponsively.com)
