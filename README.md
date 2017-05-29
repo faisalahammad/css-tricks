@@ -48,12 +48,12 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 	content: '' !important;
 }
 ```
-**N.B: Replace your class inside of .menu**
+**N.B: Replace your class inside of `menu` **
 
 
 
 ### Make Responsive iframe (CSS Code)
-First put your iframe inside of "iframe-container" class then write custom css on your child theme or external css file.
+First put your iframe inside of `iframe-container` class then write custom css on your child theme or external css file.
 
 ####Example
 ```html
@@ -80,3 +80,4 @@ First put your iframe inside of "iframe-container" class then write custom css o
 
 ### Make Responsive iframe (via Website)
 * Use this site to make responsive -> [Responsive iFrame Generator](http://embedresponsively.com)
+
