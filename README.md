@@ -147,6 +147,16 @@ We used css `flexbox` there.
 
 ---
 
+### Apply css all pages without specific page
+```css
+body:not(.home) p.post-meta .et-social-icons {
+  position: relative;
+  left: -110px;
+  top: 10px;
+}
+/*--- :not(.class) will avoide specific page/class --*/
+```
+
 ### Browser specific CSS
 
 ```css
